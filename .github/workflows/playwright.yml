@@ -21,8 +21,6 @@ jobs:
       run: npx playwright test
     - name: Install allure commandline
       run: npm install -g allure-commandline --save-dev
-    - name: Run report
-      run: allure generate --clean  
       
     - name: Get Allure history
       uses: actions/checkout@v2
