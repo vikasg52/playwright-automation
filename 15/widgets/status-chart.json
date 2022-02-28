@@ -1,0 +1,41 @@
+[ {
+  "uid" : "18780dd67ccb178",
+  "name" : "@regression,should allow me to logout from the site",
+  "time" : {
+    "start" : 1646046152434,
+    "stop" : 1646046152443,
+    "duration" : 9
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "83b6adccd7425de2",
+  "name" : "@smoke, should allow me to login to swag site",
+  "time" : {
+    "start" : 1646046151567,
+    "stop" : 1646046151576,
+    "duration" : 9
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cf794872e0f023e",
+  "name" : "@smoke, should allow me to login to swag site",
+  "time" : {
+    "start" : 1646046159202,
+    "stop" : 1646046159283,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4450df6a6e03e6b",
+  "name" : "@regression,should allow me to logout from the site",
+  "time" : {
+    "start" : 1646046160363,
+    "stop" : 1646046160447,
+    "duration" : 84
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
