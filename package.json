@@ -1,0 +1,19 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report":"allure generate --clean && allure open",
+    "smoke":"npx playwright test --grep @smoke ",
+    "regression":"npx playwright test --grep @regresson "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.19.1",
+    "allure-playwright": "^2.0.0-beta.15"
+  }
+}
