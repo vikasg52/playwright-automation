@@ -35,6 +35,7 @@ test.describe('Login & Logout the Site ', () => {
     await page.locator(objects.logout_link).click();
     // Check login window has login button
     await expect(page.locator(objects.login_button)).toBeVisible();
-
+    await expect(page.locator(objects['password_text-box'])).toBeVisible();
+    page.pause(2000);
   });
 });
