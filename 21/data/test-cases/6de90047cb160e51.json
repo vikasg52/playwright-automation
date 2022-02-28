@@ -1,0 +1,331 @@
+{
+  "uid" : "6de90047cb160e51",
+  "name" : "@smoke, should allow me to login to swag site",
+  "fullName" : "@smoke, should allow me to login to swag site",
+  "historyId" : "Mobile Safari login.spec.js Login & Logout the Site  @smoke, should allow me to login to swag site",
+  "time" : {
+    "start" : 1646054122822,
+    "stop" : 1646054129878,
+    "duration" : 7056
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1646054122823,
+        "stop" : 1646054126566,
+        "duration" : 3743
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1646054123193,
+          "stop" : 1646054125565,
+          "duration" : 2372
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(https://www.saucedemo.com/)",
+        "time" : {
+          "start" : 1646054125568,
+          "stop" : 1646054126566,
+          "duration" : 998
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.type(#user-name, standard_user)",
+      "time" : {
+        "start" : 1646054126568,
+        "stop" : 1646054126698,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#password, secret_sauce)",
+      "time" : {
+        "start" : 1646054126698,
+        "stop" : 1646054126795,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(#login-button)",
+      "time" : {
+        "start" : 1646054126802,
+        "stop" : 1646054128626,
+        "duration" : 1824
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(#react-burger-menu-btn)",
+      "time" : {
+        "start" : 1646054128627,
+        "stop" : 1646054129206,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1646054129209,
+        "stop" : 1646054129262,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(#logout_sidebar_link)",
+      "time" : {
+        "start" : 1646054129263,
+        "stop" : 1646054129859,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1646054129859,
+        "stop" : 1646054129878,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1646054129861,
+          "stop" : 1646054129875,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "510e94e44053c4ba",
+      "name" : "video",
+      "source" : "510e94e44053c4ba.webm",
+      "type" : "video/webm",
+      "size" : 54353
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mobile Safari"
+  }, {
+    "name" : "suite",
+    "value" : "login.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Login & Logout the Site "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "12614815ee72931f",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/20//#testresult/12614815ee72931f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646047239719,
+          "stop" : 1646047245436,
+          "duration" : 5717
+        }
+      }, {
+        "uid" : "265e4844808b54eb",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/16//#testresult/265e4844808b54eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646046261502,
+          "stop" : 1646046265535,
+          "duration" : 4033
+        }
+      }, {
+        "uid" : "83b6adccd7425de2",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/15//#testresult/83b6adccd7425de2",
+        "status" : "failed",
+        "statusDetails" : "browserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/webkit-1609/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+        "time" : {
+          "start" : 1646046151567,
+          "stop" : 1646046151576,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "fba4352ea097a25b",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/14//#testresult/fba4352ea097a25b",
+        "status" : "failed",
+        "statusDetails" : "browserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/webkit-1609/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+        "time" : {
+          "start" : 1646041437936,
+          "stop" : 1646041437950,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "5e5895098e9f620c",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/11//#testresult/5e5895098e9f620c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646037594783,
+          "stop" : 1646037599446,
+          "duration" : 4663
+        }
+      }, {
+        "uid" : "411f44a2e9596c5c",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/10//#testresult/411f44a2e9596c5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646036968524,
+          "stop" : 1646036977517,
+          "duration" : 8993
+        }
+      }, {
+        "uid" : "4b654681418e769e",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/9//#testresult/4b654681418e769e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646036621768,
+          "stop" : 1646036626346,
+          "duration" : 4578
+        }
+      }, {
+        "uid" : "85a7ef300224864",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/8//#testresult/85a7ef300224864",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646036600924,
+          "stop" : 1646036605692,
+          "duration" : 4768
+        }
+      }, {
+        "uid" : "1ca0edfb3c2af8d8",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/7//#testresult/1ca0edfb3c2af8d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646036302481,
+          "stop" : 1646036308209,
+          "duration" : 5728
+        }
+      }, {
+        "uid" : "c8251abeef3519f9",
+        "reportUrl" : "https://vikasg52.github.io/playwright-automation/6//#testresult/c8251abeef3519f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646035922940,
+          "stop" : 1646035931368,
+          "duration" : 8428
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6de90047cb160e51.json",
+  "parameterValues" : [ ]
+}
