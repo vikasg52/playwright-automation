@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://vikasg52.github.io/playwright-automation",
+  "buildOrder" : 6,
+  "buildName" : "GitHub Actions Run #1909121830",
+  "buildUrl" : "https://github.com/vikasg52/playwright-automation/actions/runs/1909121830",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://vikasg52.github.io/playwright-automation/6/"
+} ]

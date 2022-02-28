@@ -1,0 +1,82 @@
+{
+  "Google Chrome login.spec.js Login & Logout the Site  @regression,should allow me to logout from the site" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c360e58f0a6d7d75",
+      "reportUrl" : "https://vikasg52.github.io/playwright-automation/6//#testresult/c360e58f0a6d7d75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035943217,
+        "stop" : 1646035945058,
+        "duration" : 1841
+      }
+    } ]
+  },
+  "Mobile Safari login.spec.js Login & Logout the Site  @regression,should allow me to logout from the site" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef9a8255dd107bd0",
+      "reportUrl" : "https://vikasg52.github.io/playwright-automation/6//#testresult/ef9a8255dd107bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035931369,
+        "stop" : 1646035934187,
+        "duration" : 2818
+      }
+    } ]
+  },
+  "Google Chrome login.spec.js Login & Logout the Site  @smoke, should allow me to login to swag site" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76e9d1339a252fde",
+      "reportUrl" : "https://vikasg52.github.io/playwright-automation/6//#testresult/76e9d1339a252fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035934701,
+        "stop" : 1646035943216,
+        "duration" : 8515
+      }
+    } ]
+  },
+  "Mobile Safari login.spec.js Login & Logout the Site  @smoke, should allow me to login to swag site" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8251abeef3519f9",
+      "reportUrl" : "https://vikasg52.github.io/playwright-automation/6//#testresult/c8251abeef3519f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646035922940,
+        "stop" : 1646035931368,
+        "duration" : 8428
+      }
+    } ]
+  }
+}

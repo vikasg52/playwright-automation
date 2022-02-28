@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://vikasg52.github.io/playwright-automation/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 4,
+    "retry" : 0
+  }
+} ]
