@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "@smoke, should allow me to login to swag site",
+    "uid" : "85a7ef300224864",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646036600924,
+      "stop" : 1646036605692,
+      "duration" : 4768
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@regression,should allow me to logout from the site",
+    "uid" : "77f2e74114bda933",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646036605694,
+      "stop" : 1646036608713,
+      "duration" : 3019
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@smoke, should allow me to login to swag site",
+    "uid" : "7a3fc804b7885e23",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646036609247,
+      "stop" : 1646036611776,
+      "duration" : 2529
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@regression,should allow me to logout from the site",
+    "uid" : "a714f6a3414f8ef3",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646036611777,
+      "stop" : 1646036613703,
+      "duration" : 1926
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}
