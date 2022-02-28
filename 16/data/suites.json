@@ -1,0 +1,81 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Mobile Safari",
+    "children" : [ {
+      "name" : "login.spec.js",
+      "children" : [ {
+        "name" : "Login & Logout the Site ",
+        "children" : [ {
+          "name" : "@smoke, should allow me to login to swag site",
+          "uid" : "265e4844808b54eb",
+          "parentUid" : "ee15069d8762fc33afc5f46e41f749fe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646046261502,
+            "stop" : 1646046265535,
+            "duration" : 4033
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "@regression,should allow me to logout from the site",
+          "uid" : "50dc205468d4c66a",
+          "parentUid" : "ee15069d8762fc33afc5f46e41f749fe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646046265535,
+            "stop" : 1646046267492,
+            "duration" : 1957
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ee15069d8762fc33afc5f46e41f749fe"
+      } ],
+      "uid" : "3b7cf30ef60bcbb57ddfc358f3826fd2"
+    } ],
+    "uid" : "135cb12b5aef5cd4f79f6b7ef2b168a1"
+  }, {
+    "name" : "Google Chrome",
+    "children" : [ {
+      "name" : "login.spec.js",
+      "children" : [ {
+        "name" : "Login & Logout the Site ",
+        "children" : [ {
+          "name" : "@smoke, should allow me to login to swag site",
+          "uid" : "aa2e0d2fa92e4873",
+          "parentUid" : "681635453e618fc4ce646f835f0e5c69",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646046267887,
+            "stop" : 1646046270020,
+            "duration" : 2133
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "@regression,should allow me to logout from the site",
+          "uid" : "daeb125db5e044e5",
+          "parentUid" : "681635453e618fc4ce646f835f0e5c69",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646046270021,
+            "stop" : 1646046271433,
+            "duration" : 1412
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "681635453e618fc4ce646f835f0e5c69"
+      } ],
+      "uid" : "f82e1bfa1262a4328c24fddf5626f4cc"
+    } ],
+    "uid" : "dbbf90f08677f3a962f32774500d4575"
+  } ],
+  "name" : "suites"
+}
