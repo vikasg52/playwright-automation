@@ -70,7 +70,7 @@ const config = {
       use: {
         ...devices['iPhone 12'],
         viewport: { width: 400, height: 704 },
-        headless: false
+        headless: true
       },
     },
 
@@ -86,7 +86,7 @@ const config = {
       use: {
         channel: 'chrome',
         viewport: { width: 1680, height: 904 },
-        headless: false
+        headless: true
       },
     },
   ],
