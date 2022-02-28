@@ -3,8 +3,10 @@
 # Playwright UI Test Automation By VikasGarg
 
 
-Application under test: [Swag Labs](https://www.saucedemo.com/) 
+Application under test: [Swag Labs](https://www.saucedemo.com/)
+
 Testing framework: [Playwright](https://playwright.dev/)  
+
 Reporting Framework: [Allure] (https://docs.qameta.io/allure/)
 
 ## How to run tests
