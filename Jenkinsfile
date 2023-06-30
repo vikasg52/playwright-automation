@@ -2,17 +2,17 @@ pipeline {
     agent any
     
     stages {
-        stage('Build') {
+        stage('Checkout') {
             steps {
-                // Run Maven build
-                sh 'mvn clean package'
+                // Checkout the source code from GitHub
+                git 'git@github.com:vikasg52/playwright-automation.git'
             }
         }
         
-        stage('Test') {
+        stage('Build and Test') {
             steps {
-                // Run Maven tests
-                sh 'mvn test'
+                // Run Maven build and tests
+                bat 'mvn clean test'
             }
         }
         
@@ -30,11 +30,3 @@ pipeline {
             }
         }
     }
-    
-    post {
-        always {
-            // Clean up workspace
-            cleanWs()
-        }
-    }
-}
