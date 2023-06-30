@@ -2,30 +2,23 @@ pipeline {
     agent any
     
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the source code from GitHub
-                git 'git@github.com:vikasg52/playwright-automation.git'
-            }
-        }
-        
         stage('Install Dependencies') {
             steps {
                 // Install Node.js dependencies
-                'npm install'
+                sh 'npm install'
             }
         }
         
         stage('Run Tests') {
             steps {
                 // Run Node.js tests with Allure Report generation
-                'npx playwright test'
+                sh 'npx playwright test'
             }
         }
 
           stage('Generate Report') {
             steps {
-                'npm run report'
+              sh  'npm run report'
             }
         }
         
