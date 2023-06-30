@@ -9,25 +9,36 @@ pipeline {
             }
         }
         
-        stage('Build and Test') {
+        stage('Install Dependencies') {
             steps {
-                // Run Maven build and tests
-                bat 'mvn clean test'
+                // Install Node.js dependencies
+                sh 'npm install'
             }
         }
         
-        stage('Publish Test Results') {
+        stage('Run Tests') {
             steps {
-                // Publish test results to Jenkins
-                junit '**/target/surefire-reports/*.xml'
+                // Run Node.js tests with Allure Report generation
+                sh 'npx playwright test'
+            }
+        }
+
+          stage('Generate Report') {
+            steps {
+                sh 'npm run report'
             }
         }
         
-        stage('Archive Artifacts') {
+        stage('Publish Allure Report') {
             steps {
-                // Archive the built artifacts
-                archiveArtifacts 'target/**/*.jar'
+                // Publish Allure Report to Jenkins
+                allure([
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'allure-results']]
+                ])
             }
         }
-    }
+        
+       }
 }
