@@ -1,20 +1,40 @@
-Jenkinsfile (Declarative Pipeline)
-/* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { docker { image 'maven:3.9.0-eclipse-temurin-11' } }
+    agent any
+    
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
-                sh 'mvn --version'
-            },
-            stage('test') {
-            steps {
-                sh 'mvn --version'
-            },
-            stage('publish') {
-            steps {
-                sh 'mvn --version'
+                // Run Maven build
+                sh 'mvn clean package'
             }
+        }
+        
+        stage('Test') {
+            steps {
+                // Run Maven tests
+                sh 'mvn test'
+            }
+        }
+        
+        stage('Publish Test Results') {
+            steps {
+                // Publish test results to Jenkins
+                junit '**/target/surefire-reports/*.xml'
+            }
+        }
+        
+        stage('Archive Artifacts') {
+            steps {
+                // Archive the built artifacts
+                archiveArtifacts 'target/**/*.jar'
+            }
+        }
+    }
+    
+    post {
+        always {
+            // Clean up workspace
+            cleanWs()
         }
     }
 }
