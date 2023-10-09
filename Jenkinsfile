@@ -5,20 +5,20 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Install Node.js dependencies
-                sh 'npm install -g'
+                'npm install -g'
             }
         }
         
         stage('Run Tests') {
             steps {
                 // Run Node.js tests with Allure Report generation
-                sh 'npx playwright test'
+            'npx playwright test'
             }
         }
 
           stage('Generate Report') {
             steps {
-              sh  'npm run report'
+              'npm run report'
             }
         }
         
