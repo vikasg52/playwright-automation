@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Oct 09 08:55:01 GMT 2023","Mon Oct 09 08:55:01 GMT 2023","0","Google Chrome","login.spec.js","Login & Logout the Site ","","","@regression,should allow me to logout from the site",""
+"failed","Mon Oct 09 08:54:55 GMT 2023","Mon Oct 09 08:54:55 GMT 2023","242","Mobile Safari","login.spec.js","Login & Logout the Site ","","","@regression,should allow me to logout from the site",""
+"failed","Mon Oct 09 08:55:00 GMT 2023","Mon Oct 09 08:55:01 GMT 2023","1261","Google Chrome","login.spec.js","Login & Logout the Site ","","","@smoke, should allow me to login to swag site",""
+"failed","Mon Oct 09 08:54:53 GMT 2023","Mon Oct 09 08:54:53 GMT 2023","244","Mobile Safari","login.spec.js","Login & Logout the Site ","","","@smoke, should allow me to login to swag site",""
